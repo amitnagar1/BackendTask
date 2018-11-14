@@ -7,17 +7,17 @@ Step 2: cd repositoryname
 
 Step 3:  npm install
 
-Step 4 npm test
+Step 4: npm test
 
 // It will run all basic route test defined in API.
 
-Step 5 npm start 
+Step 5: npm start 
 
 // npm start will start the localhost server and spawn at port 8888.
 
 Performing CRUD operations.
 
-1. To See all link data/ post present 
+1. To See all link data/post present 
    GO to localhost:8888/alllinks
    
 2 To make a post request:
