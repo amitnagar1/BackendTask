@@ -3,7 +3,7 @@ A REST API providingURL shortening functionality.
 
 Step 1: Clone the repository.
 
-Step 2: cd repositoryname
+Step 2: cd BackendTask (repository)
 
 Step 3:  npm install
 
@@ -21,11 +21,11 @@ Performing CRUD operations.
    GO to localhost:8888/alllinks
    
 2 To make a post request:
-  Make a post request to localhost:8888//v1/links
+  Make a post request to localhost:8888/v1/links
   provide with a originalUrl object {originalUrl: "www.sampleurl.com"}
   
 3 To Update a existing URL:
-  Make a PUT request with hashedUrl object(Identifier) e.g { hashedUrl: "existinghashedurl"}
+  Make a PUT request to localhost:8888/v1/updatelink/hashedUrl with hashedUrl object(Identifier) e.g { hashedUrl: "existinghashedurl"}
   
 4 To make a delete request:
-   Make a DELETE request with hashedUrl object(Identifier) e.g { hashedUrl: "existinghashedurl"}
+   Make a DELETE request to localhost:8888/v1/deletelink/:hashedUrl with hashedUrl object(Identifier) e.g { hashedUrl: "existinghashedurl"}
