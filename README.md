@@ -21,9 +21,8 @@ Step 5: npm start
 
 2. Running your docker container:
       $ docker container run -d -p 8081:8888 backendtask
-/ ------------------------------------------- /      
 
-Performing CRUD operations.
+/* Performing CRUD operations. */
 
 1. To See all link data/post present 
    GO to localhost:8888/alllinks
