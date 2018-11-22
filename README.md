@@ -15,6 +15,14 @@ Step 5: npm start
 
 // npm start will start the localhost server and spawn at port 8888.
 
+/* Getting your docker image*/
+1. Pull docker image:
+      $ docker pull amitnagar/backendtask
+
+2. Running your docker container:
+      $ docker container run -d -p 8081:8888 backendtask
+/ ------------------------------------------- /      
+
 Performing CRUD operations.
 
 1. To See all link data/post present 
