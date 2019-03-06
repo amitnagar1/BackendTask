@@ -1,4 +1,4 @@
-# BackendTask
+# URL Shortener API - Backend
 A REST API providingURL shortening functionality.
 
 Step 1: Clone the repository.
